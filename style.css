@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(112, 111, 111);
+    background-image: url('https://source.unsplash.com/1600x900/?landscape');
+}
+.container{
+    opacity: 0.75;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 20px;
+    animation: animation 2s linear;
+}
+#head{
+    margin: 5px;
+}
+.location{
+    margin: 5px;
+}
+.search{
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+input{
+    background-color: rgb(206, 206, 206);
+    padding: 5px 25%;
+    text-align: center;
+}
+button:hover{
+    background-color: rgb(141, 141, 141);
+}
+.section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.icon{
+    padding: 15px;
+}
+
+
+@keyframes animation{
+    from {background-color: rgb(104, 101, 101);}
+    to {background-color: black}
+}
+@media only screen and (max-width : 720px){
+    .search-bar{
+        width: 50%;
+    }
+}
