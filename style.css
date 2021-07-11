@@ -50,7 +50,7 @@ button:hover{
     to {background-color: black}
 }
 @media only screen and (max-width : 720px){
-    .search-bar{
-        width: 50%;
+    .search-bar {
+        width: 30%;
     }
 }
